@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+background: #4267b2;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+label{
+    
+color: #fff;
+    
+font-size: 16px;
+    
+font-weight: 400;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+    
+width: 100%;
+} 
+.login{
+
+width: 60%;
+
+}
+form{
+
+
+padding-left: 60px;
+}
+.form-group{
+
+display: inline-block;
+
+width: 200px;
+}
+input{
+
+height: 25px;
+
+margin: 10px 0;
+}
+input[type="button"]{
+    cursor: pointer;
+    
+background: #1c469c;
+    
+border: 1px solid black;
+    
+padding: 5px;
+    
+box-shadow: 0px 0px 1px 0px;
+    
+color: #fff;
+}
+input[type="button"]:hover{
+    
+background: #4267B2;
+}
+
+.main-body{
+
+display: flex;
+
+background: #e9ebee;
+
+padding: 50px;
+}
+.recent{
+
+width: 50%;
+}
+.recent h1{
+
+}
+.recent p{
+
+}
+.recent img{
+    
+}
+.image{
+
+}
+.image1{
+
+}
+.image2{
+   
+}
+.sign-up{
+
+width: 50%;
+}
+.form form{
+
+padding: 0;
+}
+.form form input{
+    border: none;
+
+    border: 1px solid #d4c8c8;
+    
+    border-radius: 5px;
+    
+    padding: 5px;
+}
+.form h1{
+    
+font-size: 30px;
+}
+.form p{
+    
+font-size: 18px;
+}
+form{
+
+}
+input[type=text]{
+
+
+
+margin-right: 15px;
+}
+.form form input[type=email]{
+
+width: 370px;
+}
+.form form input[type=password]{
+
+width: 370px;
+}
+.form form label{
+    
+color: gray;
+    
+display: block;
+}
+input[type=date]{
+
+}
+input[type=radio]{
+
+margin: 0;
+
+margin-right: 10px;
+
+vertical-align: middle;
+
+}
+
+input[type=submit]{
+
+background: #69a354;
+
+width: 180px;
+
+height: 40px;
+
+color: #fff;
+
+font-size: 18px;
+
+letter-spacing: .5px;
+}
+input::placeholder{
+    color: #a69999;
+}
